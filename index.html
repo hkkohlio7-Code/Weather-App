@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <h1>
+        Weather App
+    </h1>
+
+    <div class="weather-app">
+        <div class="search-bar">
+            <button id="addbtn">+</button>
+            <div class="searchWrapper">
+                <input type="text" id="city-input" placeholder="Enter city name">
+                <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        
+        <div class="welcome-text">
+            <div class="text">
+                <p class="welcome">
+                Welcome!
+            </p>
+            <p class="welcome">
+                Click the Plus icon to search for any city Weather.
+            </p>
+            </div>
+        </div>
+        
+        <div class="weather-card">
+            <div class="city-name">
+                <p id="city"></p>
+            </div>
+
+            <div class="weather-img">
+                <img id="img" src="">
+                <p id="temp"></p>
+                <p id="aqi">AQI</p>
+                <div class="rain">
+                    <p id="c-rain"></p>
+                    <p id="feel-temp"></p>
+                </div>
+            </div>
+
+             <div class="logo">
+                    <div class="wind l">
+                        <img class="wind img" src="wind-farm.png">
+                        <p class="info">Wind Speed</p>
+                        <p class="info" id="wind-speed"></p>
+                    </div>
+                    
+                    <div class="humidity l">
+                        <img class="humidity img" src="humidity.png">
+                        <p class="info">Humidity</p>
+                        <p class="info" id="humidity-%"></p>
+                    </div>
+                </div>
+        </div>
+         
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
