@@ -27,14 +27,14 @@ A responsive weather application that provides real-time weather information for
 
 ## Screenshot
 
-![Tip Calculator Screenshot](screenshot.png)
+![Weather App Screenshot](Screenshot.png)
 
 ## Installation
 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/hkkohlio7-Code/Weather-App.git>
 ```
 
 2. Open the project folder.
@@ -65,6 +65,10 @@ This project helped me practice:
 - Local storage integration
 - Loading animation
 - Better error handling
+
+## Live Demo
+
+https://hkkohlio7-code.github.io/Weather-App/
 
 ## Author
 
