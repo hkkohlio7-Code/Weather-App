@@ -25,7 +25,9 @@ A responsive weather application that provides real-time weather information for
 
 ## Screenshot
 
-![Weather App](Screenshot.png)
+## Screenshot
+
+![Tip Calculator Screenshot](screenshot.png)
 
 ## Installation
 
